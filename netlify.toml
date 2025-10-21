@@ -1,0 +1,11 @@
+# Configurações para o deploy no Netlify de um projeto Next.js
+[build]
+  # Comando padrão para buildar o projeto
+  command = "next build"
+  # Diretório de publicação onde o resultado do build é gerado
+  publish = ".next"
+
+# Plugin essencial para garantir que todas as funcionalidades do Next.js
+# (como renderização de servidor, otimização de imagens) funcionem no Netlify.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
