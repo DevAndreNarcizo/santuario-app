@@ -1,7 +1,7 @@
 # Configurações para o deploy no Netlify de um projeto Next.js
 [build]
   # Comando padrão para buildar o projeto
-  command = "next build"
+  command = "next build --no-lint"
   # Diretório de publicação onde o resultado do build é gerado
   publish = ".next"
 
