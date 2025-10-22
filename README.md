@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Santuário da Fé
 
-## Getting Started
+Bem-vindo ao repositório do site oficial do Santuário da Fé. Este projeto é uma plataforma digital moderna desenvolvida para servir como um ponto central de comunicação e interação para a nossa comunidade.
 
-First, run the development server:
+O site oferece aos membros e visitantes informações sobre os cultos, eventos, nossa missão, além de recursos espirituais como mensagens diárias e um mural de oração.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Página Inicial Dinâmica:** Apresenta as informações mais relevantes, como mensagens do dia e próximos eventos.
+- **Propósito da Igreja:** Uma seção dedicada a explicar nossa missão, visão e valores.
+- **Horários dos Cultos:** Informações claras e acessíveis sobre os horários de nossos serviços religiosos.
+- **Agenda de Eventos:** Um calendário para manter a comunidade informada sobre todas as atividades e eventos da igreja.
+- **Mural de Oração:** Um espaço interativo onde os membros podem compartilhar seus pedidos de oração e orar uns pelos outros.
+- **Recursos Bíblicos:** Acesso a estudos e leituras da Bíblia.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Tecnologias Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este projeto foi construído com tecnologias de ponta para garantir uma experiência de usuário rápida, moderna e responsiva.
 
-## Learn More
+- **Framework:** [Next.js](https://nextjs.org/) (com App Router)
+- **Linguagem:** [TypeScript](https://www.typescriptlang.org/)
+- **Estilização:** [Tailwind CSS](https://tailwindcss.com/)
+- **Ícones:** [Lucide React](https://lucide.dev/)
+- **Linting:** [ESLint](https://eslint.org/)
 
-To learn more about Next.js, take a look at the following resources:
+## 🏁 Como Executar o Projeto Localmente
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para executar o projeto em seu ambiente de desenvolvimento, siga os passos abaixo:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/seu-usuario/santuario-da-fe.git
+    ```
 
-## Deploy on Vercel
+2.  **Navegue até o diretório do projeto:**
+    ```bash
+    cd santuario-app
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
+
+## 🌐 Deploy
+
+O deploy deste projeto é feito através da [Netlify](https://www.netlify.com/). As configurações de build e deploy estão definidas no arquivo `netlify.toml` na raiz do projeto.
